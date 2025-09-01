@@ -16,7 +16,7 @@
 
 ```
 project-root/
-├── app.py                  # Entry point to start ingestion + Streamlit app
+├── app.py                 # Entry point to start ingestion + Streamlit app
 ├── document_uploader.py   # PDF parsing, chunking, embedding, and ingestion logic
 ├── search_RAG.py          # RAG logic + HyDE integration + answer generation
 ├── generator.py           # HyDE hypothetical generation logic
@@ -30,8 +30,6 @@ project-root/
 ### Step 1: Install dependencies
 pip install -r requirements.txt
 ```
-
-## How to Run
 
 ##Add your PDFs
 Place your book summary PDFs in the `data/` folder.
