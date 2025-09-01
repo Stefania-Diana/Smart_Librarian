@@ -2,7 +2,6 @@
 
 **Smart Librarian** is a Streamlit-based AI assistant that answers questions about books using a Retrieval-Augmented Generation (RAG) pipeline. It uses OpenAI for embeddings and chat completions, performs HyDE-style hypothetical reasoning, filters inappropriate inputs, and supports optional text-to-speech output.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@
 - **Safety Filtering**: Detect profanity and OpenAI moderation flags.
 - **Text-to-Speech (TTS)**: Read answers aloud.
 
----
 
 ## Directory Structure
 
@@ -35,8 +33,8 @@ pip install -r requirements.txt
 
 ## How to Run
 
-### Step 1: Add your PDFs
-Place your book summary PDFs in the `data/` folder. Each summary should be structured with:
+##Add your PDFs
+Place your book summary PDFs in the `data/` folder.
 ```
 
 ### Step 2: Launch the app
@@ -47,13 +45,11 @@ This will:
 - Ingest and embed your PDFs into a local ChromaDB vector store.
 - Start the Streamlit web app at `http://localhost:8501/`
 
----
 
 ## Optional Enhancements
 - Enable HyDE using the checkbox in the UI to generate a better search query.
 - Enable "Read aloud" for TTS-based answer playback.
 
----
 
 ## Requirements
 Dependencies listed in `requirements.txt`:
@@ -67,4 +63,3 @@ pyttsx3
 ```
 
 
-aaaaa
